@@ -1,0 +1,17 @@
+.cartBlock {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .cartBlock__icon {
+    cursor: pointer;
+    position: relative;
+  }
+}
+
+.cartBlock__total-price {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+

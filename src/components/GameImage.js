@@ -1,8 +1,10 @@
 import React from 'react'
+import '../styles/GameImage.scss'
 
-const GameImage = ({image = ""}) => {
+const GameImage = ({ image = "" }) => {
   return (
-    <div style={{ backgroundImage: `url(${image})` }} />
+    <div className='gameImage'
+     style={{ backgroundImage: `url(${image})` }} />
   )
 }
 

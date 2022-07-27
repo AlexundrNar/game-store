@@ -1,0 +1,29 @@
+.btn {
+  border-radius: 15px;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  
+  
+}
+
+.btn--primary,
+.btn--primary:hover,
+.btn--primary:focus {
+  background-color: blueviolet;
+}
+
+.btn--secondary,
+.btn--secondary:hover, 
+.btn--secondary:focus {
+  background-color: grey;
+}
+
+.btn--small {
+  font-size: 14px;  
+}
+
+.btn--medium {
+  font-size: 18px;
+}

@@ -1,0 +1,27 @@
+.gamePage__content {
+  display: flex;
+}
+
+.gamePage__left {
+  width: 70%;
+
+  iframe {
+    width: 90%;
+    height: 400px;
+  }
+}
+
+.gamePage__right {
+  width: 30%;
+  
+  p:nth-child(2) {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+
+.gamePage__buy-game {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
